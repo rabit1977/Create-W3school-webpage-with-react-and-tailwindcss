@@ -14,21 +14,21 @@ export default function Login() {
       <div className='flex justify-center items-center mt-32'>
         <form className='flex flex-col md:w-[450px] p-8 center border-2  border-[#e3e3e3] shadow-md w-[350px] h-auto justify-center  '>
           <h1 className='mb-8 text-2xl font-bold'>Log in</h1>
-          <label className='fontsemibold text-lg'>email</label>
+          <label className='fontsemibold text-lg mb-1'>email</label>
           <input
             type='email'
             placeholder='email'
-            className='p-2 focus:shadow-sm border-2 border-[#ced4da] mb-4 outline-none'
+            className='border-2 focus:bg-gray-100 focus:shadow-sm border-[#ced4da] p-2 mb-6 outline-none'
           />
-          <label>email</label>
+          <label className='fontsemibold text-lg mb-1'>password</label>
           <input
             type='password'
             placeholder='password'
-            className='border-2 focus:shadow-sm border-[#ced4da] p-2 outline-none'
+            className='border-2 focus:bg-gray-100 focus:shadow-sm border-[#ced4da] p-2 mb-6 outline-none'
           />
           <button
             submit
-            className='mt-12 bg-[#04aa6d] hover:bg-[#059862]  text-white p-2 rounded-full font-semibold tracking-wide text-lg'
+            className='mt-10 bg-[#04aa6d] hover:bg-[#059862]  text-white p-2 rounded-full font-semibold tracking-wide text-lg'
           >
             <Link to='/login'>Log in</Link>
           </button>
