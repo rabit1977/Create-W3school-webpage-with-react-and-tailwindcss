@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-Open this project on [Netlify] (https://myw3schoolwebpagecloned.netlify.app/)
+Open this project on [netlify] (https://myw3schoolwebpagecloned.netlify.app/netlify)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
