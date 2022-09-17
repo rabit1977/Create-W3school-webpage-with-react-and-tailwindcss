@@ -8,7 +8,7 @@ export default function Home() {
       <div className='relative overflow-hidden'>
         <div className='absolute bg-[#282a35e6] w-screen h-[calc(100vh-6rem)]'></div>
         <img
-          className=' h-[calc(100vh-6rem)] w-screen'
+          className=' h-[calc(100vh-6rem)] w-screen object-cover'
           src='computer-g971e436ec_1920.jpg'
           alt='Officebook'
         />
@@ -82,6 +82,39 @@ export default function Home() {
           <p className='text-xs md:text-sm text-slate-800'>
             Playground for HTML, CSS and JavaScript
           </p>
+        </div>
+      </div>
+      <div className='bg-[#282a35] h-68 flex items-center flex-col py-16'>
+        <div>
+          <h1 className='text-white font-bold tracking-wide text-3xl pb-12'>
+            How it works
+          </h1>
+        </div>
+        <div className='w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 place-items-center sm:place-content-around sm:place-items-center gap-8  text-white'>
+          <div>
+            <img src='#' alt='' />
+            <h5 className='text-md sm:text-lg sm:font-semibold'>
+              1.Join W3Schools-and create a space
+            </h5>
+          </div>
+          <div>
+            <img src='#' alt='' />
+            <h5 className='text-md sm:text-lg sm:font-semibold'>
+              2. Choose a template - or start from scratch
+            </h5>
+          </div>
+          <div>
+            <img src='#' alt='' />
+            <h5 className='text-md sm:text-lg sm:font-semibold'>
+              3. Edit code directly in your browser
+            </h5>
+          </div>
+          <div>
+            <img src='#' alt='' />
+            <h5 className='text-md sm:text-lg sm:font-semibold'>
+              4. Share your website with the world
+            </h5>
+          </div>
         </div>
       </div>
     </div>
