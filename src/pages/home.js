@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
-import { CheckedIcon, CreateSpace } from '../Icons/icons';
+import { CheckedIcon, CreateSpace, TemplateIcon } from '../Icons/icons';
 
 export default function Home() {
   return (
@@ -99,7 +99,7 @@ export default function Home() {
             </h5>
           </div>
           <div className='flex flex-col items-center'>
-            <CreateSpace />
+            <TemplateIcon />
             <h5 className='text-sm text-center sm:text-md sm:font-semibold pb-8 pt-4'>
               2.Choose a template - or start from scratch
             </h5>
