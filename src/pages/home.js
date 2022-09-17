@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
+import { CreateSpace } from '../Icons/icons';
 
 export default function Home() {
   return (
@@ -84,34 +85,34 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className='bg-[#282a35] h-68 flex items-center flex-col py-16'>
+      <div className='bg-[#282a35] h-68 flex items-center flex-col py-16 px-8'>
         <div>
           <h1 className='text-white font-bold tracking-wide text-3xl pb-12'>
             How it works
           </h1>
         </div>
         <div className='w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 place-items-center sm:place-content-around sm:place-items-center gap-8  text-white'>
-          <div>
-            <img src='#' alt='' />
-            <h5 className='text-md sm:text-lg sm:font-semibold'>
+          <div className='grid place-items-center text-center'>
+            <CreateSpace />
+            <h5 className='text-md sm:text-lg sm:font-semibold pb-8 pt-2'>
               1.Join W3Schools-and create a space
             </h5>
           </div>
-          <div>
-            <img src='#' alt='' />
-            <h5 className='text-md sm:text-lg sm:font-semibold'>
+          <div className='grid place-items-center text-center'>
+            <CreateSpace />
+            <h5 className='text-md sm:text-lg sm:font-semibold pb-8 pt-2'>
               2. Choose a template - or start from scratch
             </h5>
           </div>
-          <div>
-            <img src='#' alt='' />
-            <h5 className='text-md sm:text-lg sm:font-semibold'>
+          <div className='grid place-items-center text-center'>
+            <CreateSpace />
+            <h5 className='text-md sm:text-lg sm:font-semibold pb-8 pt-2'>
               3. Edit code directly in your browser
             </h5>
           </div>
-          <div>
-            <img src='#' alt='' />
-            <h5 className='text-md sm:text-lg sm:font-semibold'>
+          <div className='grid place-items-center text-center'>
+            <CreateSpace />
+            <h5 className='text-md sm:text-lg sm:font-semibold pb-8 pt-2'>
               4. Share your website with the world
             </h5>
           </div>
