@@ -118,6 +118,120 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className='py-12 '>
+        <div className='space-y-6 text-center'>
+          <h1 className='text-4xl pb-6 font-bold'>
+            Start Free - upgrade later
+          </h1>
+          <h3 className='text-xl tracking-wider font-semibold text-slate-700'>
+            Master new skills
+          </h3>
+          <h2 className='text-slate-600'>
+            Monthly <span>Yearly (get 2 months for free)</span>
+          </h2>
+        </div>
+        <div className='grid grid-cols-1 md:grid-cols-3 mt-6 gap-5 mx-6'>
+          <div className='p-6 bg-[#282a35] text-white rounded-xl'>
+            <div className=''>
+              <button className='px-10 w-full py-1.5  text-black font-bold mb-8 bg-[#fff4a3] rounded-full'>
+                FREE
+              </button>
+              <div className='space-y-4'>
+                <p>
+                  <span className='text-3xl font-bold mr-2'>$0</span>{' '}
+                  <span> /month</span>
+                </p>
+                <p className='text-xl font-bold tracking-wide'>Free</p>
+                <p className='text-xs font-medium'>
+                  For new web developers reeady to create their first site
+                </p>
+              </div>
+              <div className='space-y-2 mt-6 text-xs font-medium'>
+                <p>
+                  <span className='text-pink-300/70'>
+                    Browse W3Schools with ads
+                  </span>
+                </p>
+                <p>Build static sites</p>
+                <p>1 space</p>
+                <p>100 MB storage</p>
+                <p>500 requests/month</p>
+                <p>w3spaces.com subdomain</p>
+                <p>SSL certificate</p>
+              </div>
+              <button className='px-10 mt-8 py-1.5 text-black font-normal  bg-[#ffc0c7] rounded-full w-full text-sm'>
+                Get started for free
+              </button>
+            </div>
+          </div>
+          <div className='p-6 bg-[#282a35] text-white rounded-xl'>
+            <div className=''>
+              <button className='px-10 w-full py-1.5 mt-4 text-black font-bold mb-8 bg-[#fff4a3] rounded-full'>
+                FREE
+              </button>
+              <div className='space-y-4'>
+                <p>
+                  <span className='text-3xl font-bold mr-2'>$0</span>{' '}
+                  <span> /month</span>
+                </p>
+                <p className='text-xl font-bold tracking-wide'>Free</p>
+                <p className='text-xs font-medium'>
+                  For new web developers reeady to create their first site
+                </p>
+              </div>
+              <div className='space-y-2 mt-6 text-xs font-medium'>
+                <p>
+                  <span className='text-pink-300/70'>
+                    Browse W3Schools with ads
+                  </span>
+                </p>
+                <p>Build static sites</p>
+                <p>1 space</p>
+                <p>100 MB storage</p>
+                <p>500 requests/month</p>
+                <p>w3spaces.com subdomain</p>
+                <p>SSL certificate</p>
+              </div>
+              <button className='px-10 mt-8 py-1.5 text-black font-normal mb-8 bg-[#ffc0c7] rounded-full w-full text-sm'>
+                Get started for free
+              </button>
+            </div>
+          </div>
+          <div className='p-6 bg-[#282a35] text-white rounded-xl'>
+            <div className=''>
+              <button className='px-10 w-full py-1.5 mt-4 text-black font-bold mb-8 bg-[#fff4a3] rounded-full'>
+                FREE
+              </button>
+              <div className='space-y-4'>
+                <p>
+                  <span className='text-3xl font-bold mr-2'>$0</span>{' '}
+                  <span> /month</span>
+                </p>
+                <p className='text-xl font-bold tracking-wide'>Free</p>
+                <p className='text-xs font-medium'>
+                  For new web developers reeady to create their first site
+                </p>
+              </div>
+              <div className='space-y-2 mt-6 text-xs font-medium'>
+                <p>
+                  <span className='text-pink-300/70'>
+                    Browse W3Schools with ads
+                  </span>
+                </p>
+                <p>Build static sites</p>
+                <p>1 space</p>
+                <p>100 MB storage</p>
+                <p>500 requests/month</p>
+                <p>w3spaces.com subdomain</p>
+                <p>SSL certificate</p>
+              </div>
+              <button className='px-10 mt-8 py-1.5 text-black font-normal mb-8 bg-[#ffc0c7] rounded-full w-full text-sm'>
+                Get started for free
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
