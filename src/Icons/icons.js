@@ -35,8 +35,8 @@ export const W3SchoolsIcon = (props) => {
 export const CreateSpace = (props) => {
   return (
     <svg
-      width='68'
-      height='68'
+      width='52'
+      height='52'
       viewBox='0 0 178 144'
       fill='none'
       xmlns='http://www.w3.org/2000/svg'
@@ -61,6 +61,35 @@ export const CreateSpace = (props) => {
         d='M57.8867 28.3475C60.445 28.3475 62.5189 26.3899 62.5189 23.9752C62.5189 21.5604 60.445 19.6029 57.8867 19.6029C55.3285 19.6029 53.2545 21.5604 53.2545 23.9752C53.2545 26.3899 55.3285 28.3475 57.8867 28.3475Z'
         fill='#a9EEE1'
       />
+    </svg>
+  );
+};
+export const CheckedIcon = (props) => {
+  return (
+    <svg
+      width='16'
+      height='16'
+      viewBox='0 0 50 50'
+      fill='none'
+      xmlns='http://www.w3.org/2000/svg'
+      {...props}
+    >
+      <g clip-path='url(#clip0_22_51)'>
+        <path
+          d='M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z'
+          fill='#383838'
+        />
+        <path
+          d='M13.0667 27.2604L21.8441 34.6383L36.452 14.2857'
+          stroke='white'
+          stroke-width='4'
+        />
+      </g>
+      <defs>
+        <clipPath id='clip0_22_51'>
+          <rect width='50' height='50' fill='white' />
+        </clipPath>
+      </defs>
     </svg>
   );
 };

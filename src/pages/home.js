@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
-import { CreateSpace } from '../Icons/icons';
+import { CheckedIcon, CreateSpace } from '../Icons/icons';
 
 export default function Home() {
   return (
@@ -91,28 +91,28 @@ export default function Home() {
             How it works
           </h1>
         </div>
-        <div className='w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 place-items-center sm:place-content-around sm:place-items-center gap-8  text-white'>
-          <div className='grid place-items-center text-center'>
+        <div className='columns-1  lg:columns-4 sm:columns-2 space-y-6 text-white'>
+          <div className='flex flex-col items-center'>
             <CreateSpace />
-            <h5 className='text-md sm:text-lg sm:font-semibold pb-8 pt-2'>
+            <h5 className='text-sm text-center sm:text-md sm:font-semibold pb-8 pt-4'>
               1.Join W3Schools-and create a space
             </h5>
           </div>
-          <div className='grid place-items-center text-center'>
+          <div className='flex flex-col items-center'>
             <CreateSpace />
-            <h5 className='text-md sm:text-lg sm:font-semibold pb-8 pt-2'>
-              2. Choose a template - or start from scratch
+            <h5 className='text-sm text-center sm:text-md sm:font-semibold pb-8 pt-4'>
+              2.Choose a template - or start from scratch
             </h5>
           </div>
-          <div className='grid place-items-center text-center'>
+          <div className='flex flex-col items-center'>
             <CreateSpace />
-            <h5 className='text-md sm:text-lg sm:font-semibold pb-8 pt-2'>
+            <h5 className='text-sm text-center sm:text-md sm:font-semibold pb-8 pt-4'>
               3. Edit code directly in your browser
             </h5>
           </div>
-          <div className='grid place-items-center text-center'>
+          <div className='flex flex-col items-center'>
             <CreateSpace />
-            <h5 className='text-md sm:text-lg sm:font-semibold pb-8 pt-2'>
+            <h5 className='text-sm text-center sm:text-md sm:font-semibold pb-8 pt-4'>
               4. Share your website with the world
             </h5>
           </div>
@@ -130,41 +130,8 @@ export default function Home() {
             Monthly <span>Yearly (get 2 months for free)</span>
           </h2>
         </div>
-        <div className='grid grid-cols-1 md:grid-cols-3 mt-6 gap-5 mx-6'>
-          <div className='p-6 bg-[#282a35] text-white rounded-xl'>
-            <div className=''>
-              <button className='px-10 w-full py-1.5  text-black font-bold mb-8 bg-[#fff4a3] rounded-full'>
-                FREE
-              </button>
-              <div className='space-y-4'>
-                <p>
-                  <span className='text-3xl font-bold mr-2'>$0</span>{' '}
-                  <span> /month</span>
-                </p>
-                <p className='text-xl font-bold tracking-wide'>Free</p>
-                <p className='text-xs font-medium'>
-                  For new web developers reeady to create their first site
-                </p>
-              </div>
-              <div className='space-y-2 mt-6 text-xs font-medium'>
-                <p>
-                  <span className='text-pink-300/70'>
-                    Browse W3Schools with ads
-                  </span>
-                </p>
-                <p>Build static sites</p>
-                <p>1 space</p>
-                <p>100 MB storage</p>
-                <p>500 requests/month</p>
-                <p>w3spaces.com subdomain</p>
-                <p>SSL certificate</p>
-              </div>
-              <button className='px-10 mt-8 py-1.5 text-black font-normal  bg-[#ffc0c7] rounded-full w-full text-sm'>
-                Get started for free
-              </button>
-            </div>
-          </div>
-          <div className='p-6 bg-[#282a35] text-white rounded-xl'>
+        <div className='flex flex-col md:flex-row md:max-w-4xl max-w-[280px] m-auto mt-6 gap-5'>
+          <div className='px-6 py-3 bg-[#282a35] text-white rounded-2xl shadow-lg'>
             <div className=''>
               <button className='px-10 w-full py-1.5 mt-4 text-black font-bold mb-8 bg-[#fff4a3] rounded-full'>
                 FREE
@@ -179,32 +146,68 @@ export default function Home() {
                   For new web developers reeady to create their first site
                 </p>
               </div>
-              <div className='space-y-2 mt-6 text-xs font-medium'>
+              <div className='space-y-2 mt-6 text-xs font-medium ml-2'>
                 <p>
-                  <span className='text-pink-300/70'>
+                  <a
+                    href='#a'
+                    className='text-pink-300/70 hover:text-pink-300/80'
+                  >
+                    <span>
+                      <CheckedIcon className='inline-flex mr-2' />
+                    </span>
                     Browse W3Schools with ads
-                  </span>
+                  </a>
                 </p>
-                <p>Build static sites</p>
-                <p>1 space</p>
-                <p>100 MB storage</p>
-                <p>500 requests/month</p>
-                <p>w3spaces.com subdomain</p>
-                <p>SSL certificate</p>
+                <p>
+                  <span>
+                    <CheckedIcon className='inline-flex mr-2' />
+                  </span>
+                  Build static sites
+                </p>
+                <p>
+                  <span>
+                    <CheckedIcon className='inline-flex mr-2' />
+                  </span>
+                  1 space
+                </p>
+                <p>
+                  <span>
+                    <CheckedIcon className='inline-flex mr-2' />
+                  </span>
+                  100 MB storage
+                </p>
+                <p>
+                  <span>
+                    <CheckedIcon className='inline-flex mr-2' />
+                  </span>
+                  500 requests/month
+                </p>
+                <p>
+                  <span>
+                    <CheckedIcon className='inline-flex mr-2' />
+                  </span>
+                  w3spaces.com subdomain
+                </p>
+                <p>
+                  <span>
+                    <CheckedIcon className='inline-flex mr-2' />
+                  </span>
+                  SSL certificate
+                </p>
               </div>
-              <button className='px-10 mt-8 py-1.5 text-black font-normal mb-8 bg-[#ffc0c7] rounded-full w-full text-sm'>
+              <button className='px-6 mt-8 py-1.5 text-black font-normal mb-4 bg-[#ffc0c7] rounded-full w-full text-sm'>
                 Get started for free
               </button>
             </div>
           </div>
-          <div className='p-6 bg-[#282a35] text-white rounded-xl'>
+          <div className='px-6 py-3 bg-[#282a35] text-white rounded-2xl'>
             <div className=''>
               <button className='px-10 w-full py-1.5 mt-4 text-black font-bold mb-8 bg-[#fff4a3] rounded-full'>
                 FREE
               </button>
               <div className='space-y-4'>
                 <p>
-                  <span className='text-3xl font-bold mr-2'>$0</span>{' '}
+                  <span className='text-3xl font-bold mr-2'>$10</span>{' '}
                   <span> /month</span>
                 </p>
                 <p className='text-xl font-bold tracking-wide'>Free</p>
@@ -212,20 +215,139 @@ export default function Home() {
                   For new web developers reeady to create their first site
                 </p>
               </div>
-              <div className='space-y-2 mt-6 text-xs font-medium'>
+              <div className='space-y-2 mt-6 text-xs font-medium ml-2'>
                 <p>
-                  <span className='text-pink-300/70'>
+                  <a
+                    href='#a'
+                    className='text-pink-300/70 hover:text-pink-300/80'
+                  >
+                    {' '}
+                    <span>
+                      <CheckedIcon className='inline-flex mr-2' />
+                    </span>
                     Browse W3Schools with ads
-                  </span>
+                  </a>
                 </p>
-                <p>Build static sites</p>
-                <p>1 space</p>
-                <p>100 MB storage</p>
-                <p>500 requests/month</p>
-                <p>w3spaces.com subdomain</p>
-                <p>SSL certificate</p>
+                <p>
+                  {' '}
+                  <span>
+                    <CheckedIcon className='inline-flex mr-2' />
+                  </span>
+                  Build static sites
+                </p>
+                <p>
+                  {' '}
+                  <span>
+                    <CheckedIcon className='inline-flex mr-2' />
+                  </span>
+                  2 space
+                </p>
+                <p>
+                  {' '}
+                  <span>
+                    <CheckedIcon className='inline-flex mr-2' />
+                  </span>
+                  200 MB storage
+                </p>
+                <p>
+                  {' '}
+                  <span>
+                    <CheckedIcon className='inline-flex mr-2' />
+                  </span>
+                  1000 requests/month
+                </p>
+                <p>
+                  {' '}
+                  <span>
+                    <CheckedIcon className='inline-flex mr-2' />
+                  </span>
+                  w3spaces.com subdomain
+                </p>
+                <p>
+                  {' '}
+                  <span>
+                    <CheckedIcon className='inline-flex mr-2' />
+                  </span>
+                  SSL certificate
+                </p>
               </div>
-              <button className='px-10 mt-8 py-1.5 text-black font-normal mb-8 bg-[#ffc0c7] rounded-full w-full text-sm'>
+              <button className='px-6 mt-8 py-1.5 text-black font-normal mb-4 bg-[#ffc0c7] rounded-full w-full text-sm'>
+                Get started for free
+              </button>
+            </div>
+          </div>
+          <div className='px-6 py-3 bg-[#282a35] text-white rounded-2xl'>
+            <div className=''>
+              <button className='px-10 w-full py-1.5 mt-4 text-black font-bold mb-8 bg-[#fff4a3] rounded-full'>
+                FREE
+              </button>
+              <div className='space-y-4'>
+                <p>
+                  <span className='text-3xl font-bold mr-2'>$20</span>{' '}
+                  <span> /month</span>
+                </p>
+                <p className='text-xl font-bold tracking-wide'>Free</p>
+                <p className='text-xs font-medium'>
+                  For new web developers reeady to create their first site
+                </p>
+              </div>
+              <div className='space-y-2 mt-6 text-xs font-medium ml-2'>
+                <p>
+                  <a
+                    href='#a'
+                    className='text-pink-300/70 hover:text-pink-300/80'
+                  >
+                    {' '}
+                    <span>
+                      <CheckedIcon className='inline-flex mr-2' />
+                    </span>
+                    Browse W3Schools with ads
+                  </a>
+                </p>
+                <p>
+                  {' '}
+                  <span>
+                    <CheckedIcon className='inline-flex mr-2' />
+                  </span>
+                  Build static sites
+                </p>
+                <p>
+                  {' '}
+                  <span>
+                    <CheckedIcon className='inline-flex mr-2' />
+                  </span>
+                  3 space
+                </p>
+                <p>
+                  {' '}
+                  <span>
+                    <CheckedIcon className='inline-flex mr-2' />
+                  </span>
+                  300 MB storage
+                </p>
+                <p>
+                  {' '}
+                  <span>
+                    <CheckedIcon className='inline-flex mr-2' />
+                  </span>
+                  1500 requests/month
+                </p>
+                <p>
+                  {' '}
+                  <span>
+                    <CheckedIcon className='inline-flex mr-2' />
+                  </span>
+                  w3spaces.com subdomain
+                </p>
+                <p>
+                  {' '}
+                  <span>
+                    <CheckedIcon className='inline-flex mr-2' />
+                  </span>
+                  SSL certificate
+                </p>
+              </div>
+              <button className='px-6 mt-8 py-1.5 text-black font-normal mb-4 bg-[#ffc0c7] rounded-full w-full text-sm'>
                 Get started for free
               </button>
             </div>
